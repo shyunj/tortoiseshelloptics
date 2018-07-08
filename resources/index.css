@@ -72,8 +72,60 @@ header .flex{
 }
 
 .supporting{
-  height: 8rem;
-  padding: 3rem 0;
   display: flex;
   justify-content: center;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
+  margin: 3rem;
+  text-align: center;
+}
+
+.service img{
+  width: 5em;
+  margin-bottom: 1rem;
+}
+
+.service #paper_icon{
+  width: 3.5rem;
+}
+
+.info{
+  width: 35%;
+  margin-bottom: 4rem;
+  margin-right: 5%;
+}
+
+.info p{
+  padding: 1rem 0;
+}
+
+.title{
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  background-color: cadetblue;
+  padding: 0.5rem 1.25rem;
+  max-width: 10rem;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  background-color: azure;
+  padding: 4rem 2rem;
+}
+
+footer img{
+  margin-left: 2rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+  
 }
